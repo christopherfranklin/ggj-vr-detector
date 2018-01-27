@@ -59,6 +59,7 @@
      <Compile Include="Assets\OVR\Editor\OVRPluginUpdaterStub.cs" />
      <Compile Include="Assets\OVR\Editor\OVRScreenshotWizard.cs" />
      <Compile Include="Assets\OVR\Scripts\Editor\OVRManagerEditor.cs" />
+     <Compile Include="Assets\OvrAvatar\Editor\AvatarMaterialEditor.cs" />
      <None Include="Assets\OVR\Editor\AndroidManifest.OVRSubmission.xml" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/chrisfranklin/workspace/games/ggj-vr-detector/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
