@@ -99,14 +99,6 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackedRemote.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRWaitCursor.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
-     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
      <None Include="Assets\OVR\Shaders\OVRColorRampAlpha.shader" />
@@ -120,7 +112,6 @@
      <None Include="Assets\OVR\Resources\OVRMRCameraFrame.shader" />
      <None Include="Assets\OVR\Resources\OVRMRClipPlane.shader" />
      <None Include="Assets\OVR\Resources\Underlay Impostor.shader" />
-     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
      <None Include="Assets\OVR\Plugins\placeholder.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/chrisfranklin/workspace/games/ggj-vr-detector/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
@@ -224,10 +215,6 @@
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>/Users/chrisfranklin/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{C4239E3E-3485-63EC-C6CD-8F478711568A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
