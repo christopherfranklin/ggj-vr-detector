@@ -563,6 +563,7 @@ GameObject:
   - component: {fileID: 1235484647}
   - component: {fileID: 1235484650}
   - component: {fileID: 1235484649}
+  - component: {fileID: 1235484651}
   m_Layer: 0
   m_Name: Players
   m_TagString: Untagged
@@ -661,6 +662,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &1235484651
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235484645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1367527554 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 8094b8465f4a54cad870297dcbef9cbc, type: 3}
