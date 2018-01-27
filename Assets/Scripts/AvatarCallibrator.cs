@@ -20,6 +20,7 @@ public class AvatarCalibrator : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		transform.position += LeftHand.transform.position - LeftHandAvatar.transform.position;        
+		transform.position += LeftHand.transform.position - LeftHandAvatar.transform.position;
+		transform.rotation = LeftHand.transform.root.rotation;
 	}
 }
