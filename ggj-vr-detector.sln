@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj-vr-detector", "Assembly-CSharp-firstpass.csproj", "{C4239E3E-3485-63EC-C6CD-8F478711568A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj-vr-detector", "Assembly-CSharp.csproj", "{1F023B60-05FB-D370-1B39-ED1573508C42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj-vr-detector", "Assembly-CSharp-firstpass.csproj", "{C4239E3E-3485-63EC-C6CD-8F478711568A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj-vr-detector", "Assembly-CSharp-Editor-firstpass.csproj", "{C02D344D-92DE-D578-521D-801EE1AE2F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ggj-vr-detector", "Assembly-CSharp-Editor.csproj", "{998C1E85-9D8A-7DFE-023E-C0060B76D3B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1F023B60-05FB-D370-1B39-ED1573508C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1F023B60-05FB-D370-1B39-ED1573508C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F023B60-05FB-D370-1B39-ED1573508C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F023B60-05FB-D370-1B39-ED1573508C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4239E3E-3485-63EC-C6CD-8F478711568A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C02D344D-92DE-D578-521D-801EE1AE2F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C02D344D-92DE-D578-521D-801EE1AE2F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C02D344D-92DE-D578-521D-801EE1AE2F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C02D344D-92DE-D578-521D-801EE1AE2F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{998C1E85-9D8A-7DFE-023E-C0060B76D3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{998C1E85-9D8A-7DFE-023E-C0060B76D3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{998C1E85-9D8A-7DFE-023E-C0060B76D3B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{998C1E85-9D8A-7DFE-023E-C0060B76D3B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
