@@ -124,9 +124,9 @@
      <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarSkinnedMeshRenderPBSComponent.cs" />
      <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarSkinnedMeshRenderPBSV2Component.cs" />
      <Compile Include="Assets\OvrAvatar\Scripts\OvrAvatarTouchController.cs" />
-     <Compile Include="Assets\Scripts\AvatarCallibrator.cs" />
      <Compile Include="Assets\Scripts\DetectorController.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
      <None Include="Assets\OvrAvatar\Content\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\OVR\Resources\OVRMRUnlitTransparent.shader" />
      <None Include="Assets\OVR\Resources\OVRMRChromaKey.cginc" />
