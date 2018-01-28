@@ -210,7 +210,7 @@ MonoBehaviour:
   m_gripTransform: {fileID: 1990647009}
   m_grabVolumes:
   - {fileID: 1990647011}
-  m_controller: 0
+  m_controller: 2
   m_parentTransform: {fileID: 0}
 --- !u!1001 &437683733
 Prefab:
@@ -912,7 +912,7 @@ MonoBehaviour:
   m_gripTransform: {fileID: 455440916}
   m_grabVolumes:
   - {fileID: 455440918}
-  m_controller: 0
+  m_controller: 1
   m_parentTransform: {fileID: 0}
 --- !u!1 &1517793740
 GameObject:
